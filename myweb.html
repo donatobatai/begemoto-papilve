@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<link type="text/css" rel="stylesheet" href="http://localhost/myweb/css/myweb.css"/>
+
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Quicksand: 300,400' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="http://localhost/myweb/plugins/d3.v3.min.js"></script>
+
+    <script type="text/javascript" src="http://localhost/myweb/plugins/jqbar.js"></script>
+
+    <script type="text/javascript" src="http://localhost/myweb/plugins/modernizr.custom.79639.js"></script>
+
+    <script type="text/javascript" src="http://localhost/myweb/plugins/jquery.ba-cond.min.js"></script>
+
+    <script type="text/javascript" src="http://localhost/myweb/plugins/jquery.slitslider.js"></script>   
+  
+  </head>
+
+	<body>
+
+		<div class="header">
+     
+        <div id="navigation">
+          
+        <ul>
+				  <li class="nav"><a href="#about">ABOUT</a></li>
+				  <li class="nav"><a href="#skills-title">SKILLS</a></li>
+				  <li class="nav"><a href="#experience">EXPERIENCE</a></li>
+				  <li class="nav"><a href="#gallery">PORTFOLIO</a></li>
+				  <li class="nav"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+
+		<div id="first"> 
+
+      <video autoplay loop muted poster="background.jpg" id="bgvid">
+          <source src="http://localhost/myweb/media/vbackground.webm" type="video/webm">
+          <source src="http://localhost/myweb/media/vbackground.mp4" type="video/mp4">
+          <source src="http://localhost/myweb/media/vbackground.ogg" type="video/ogg">
+      </video>
+
+
+			  <p id="name1" class="names">Donatas Starkus</p>
+        <h2  id="cv">Curriculum Vitae</h2>
+
+
+        <a href="#about-1"><p>Enter</p></a>
+				
+		</div>
+
+		
+
+		<div id="second">
+			<div id="about-1">
+        <img  id="for" src="http://localhost/myweb/media/me.jpg">
+          
+      </div>
+    
+      <div id="about-2">
+        <h3 id="about">Profile</h3>
+
+        <h5>About me</h5>
+          
+          <p>Hi! I would describe myself as ambitious and hard working junior Events Manager with work experience in hospitality and events industries inside developed and devleoping economies. Particularly interested in crowdsourcing and experiential marketing events. 
+          </p>
+      </div>
+    
+      <div id="about-3">
+          <h5>Details</h5>
+          <p><span class="about-bold">Name</span></p>
+          <p>Donatas Starkus</p>
+          <p><span class="about-bold">Age</span></p>
+          <p>24</p>
+          <p><span class="about-bold">Location</span></p>
+          <p>Huddersfield, </br>
+          West Yorkshire, </br> UK.
+            </p>
+      </div>
+    
+		</div>
+
+		<div id="third">
+
+
+      <div id="third-skills">
+        <div class="pagename">
+          <h1 id="skills-title">My Skills</h1>
+        </div>
+
+        <div id="skillhead">
+    
+          <div id="rowhead1">
+            <div id="colhead1">
+              <img  id="colhead1-ic" src="http://localhost/myweb/media/users.png">
+              <p>Leadership skills</p>
+              <span class="headnotes">"The first responsibility of a leader is to define reality. The last is to say thank you. In between, the leader is a servant" — Max DePree </span>
+
+   
+  
+            </div>
+
+           
+
+          <div id="colhead2">
+              <img  id="colhead2-ic" src="http://localhost/myweb/media/problem.png">
+              <p>Problem solving</p>
+              <span class="headnotes">"The significant problems we face cannot be solved at the same level of thinking we were at when we created them." — Albert Einstein</span>
+
+          </div>
+        </div>
+
+        <div id="rowhead2">
+          <div id="headimg">
+          <img src="http://localhost/myweb/media/head.png">
+          <div id="mec1" class="meca1 mecabar1" onclick="toggleElement1(), drawBarCircleChart()">
+          <div class='spiralContainer'><div class='spiral'></div></div>
+        </div>
+        <div id="mec2" class="meca1" onclick="toggleElement2()">
+          <div class='spiralContainer2'><div class='spiral2'></div></div>
+          </div>
+          <div id="mec3" class="meca1" onclick="toggleElement3()">
+          <div class='spiralContainer3'><div class='spiral3'></div></div>
+          </div>
+          <div id="mec4" class="meca1" onclick="toggleElement4()">
+          <div class='spiralContainer4'><div class='spiral4'></div></div>
+          </div>
+          </div>
+
+          
+        </div>
+        
+        <div id="rowhead3">
+          <div id="colhead3">
+            <img  id="colhead3-ic" src="http://localhost/myweb/media/lightb.png">
+            <p>Creativity and Innovations</p>
+           <span class="headnotes">"You cannot discover new oceans unless you have the courage to lose sight of the shore" - Andre Gide </span>
+
+          </div>
+
+          <div id="colhead4">
+             <img  id="colhead4-ic" src="http://localhost/myweb/media/flexi.png">
+            <p>Flexibility</p>
+           <span class="headnotes">"The present confrontation of our mind. The flexibility of our vision" - Black Uhuru </span>
+
+            
+          </div>
+        </div>
+
+      </div>
+        
+
+			<div id="skills">
+     
+
+        
+          <table border="0px" style="border-collapse: collapse" id="lapino">
+                    
+                <tr> <td colspan="4" id="name-skills">Proficiencies<hr size="1"></hr></td></tr>
+
+                    <tr>
+                      <td class="label">
+                        <span>SEO</span>
+                      </td>
+                        <td class="jbar">
+                          <div id="bar-1" class="jqbar horizontal" data-label="" data-value="70", data-color="rgba(110, 180, 180, 0.4)">
+                          </div>
+                        </td>
+                        <td class="label">
+                          <span>Vivien</span>
+                        </td>
+                        <td class="jbar">
+                          <div id="bar-7" class="jqbar horizontal" data-label="" data-value="60", data-color="rgba(110, 180, 180, 0.4)">
+                          
+                          </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                      <td class="label">
+                        <span>MS Office</span>
+                      </td>
+                      <td class="jbar">
+                        <div id="bar-2" class="jqbar horizontal" data-label="" data-value="95", data-color="rgba(110, 180, 180, 0.4)">
+                        </div>
+                      </td>
+                      <td class="label">
+                        <span class="label-8">Wordpress</span>
+                      </td>
+                      <td class="jbar">
+                        <div id="bar-8" class="jqbar horizontal" data-label="" data-value="90", data-color="rgba(110, 180, 180, 0.4)">
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="label">
+                          <span>Javascript</span>
+                      </td>
+                      <td class="jbar">
+                          <div id="bar-3" class="jqbar horizontal" data-label="" data-value="20", data-color="rgba(110, 180, 180, 0.4)">
+                          
+                          </div>
+                      </td>
+                      <td class="label">
+                          <span>Asana</span>
+                      </td>
+                      <td class="jbar">
+                        <div id="bar-9" class="jqbar horizontal" data-label="" data-value="99", data-color="rgba(110, 180, 180, 0.4)">
+                      
+                    </div>
+                  </td>
+                  </tr>
+                    <tr>
+                      <td class="label">
+                        <span>HTML5</span>
+                      </td>
+                      <td class="jbar">
+                        <div id="bar-4" class="jqbar horizontal" data-label="" data-value="90", data-color="rgba(110, 180, 180, 0.4)">
+                        </div>
+                      </td>
+                      <td class="label">
+                        <span>GitHub</span>
+                      </td>
+                      <td class="jbar">
+                         <div id="bar-10" class="jqbar horizontal" data-label="" data-value="50", data-color="rgba(110, 180, 180, 0.4)">
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="label">
+                        <span>CSS3</span>
+                      </td>
+                      <td class="jbar">
+                        <div id="bar-5" class="jqbar horizontal" data-label="" data-value="80", data-color="rgba(110, 180, 180, 0.4)">
+                        </div>
+                      </td>
+                      <td class="label">
+                         <span>Photoshop</span>
+                      </td>
+                      <td class="jbar">
+                        <div id="bar-11" class="jqbar horizontal" data-label="" data-value="60", data-color="rgba(110, 180, 180, 0.4)">
+                       
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="label">
+                         <span>jQuery</span>
+                      </td>
+                      <td class="jbar">
+                        <div id="bar-6" class="jqbar horizontal" data-label="" data-value="10", data-color="rgba(110, 180, 180, 0.4)">
+                       
+                        </div>
+                      </td>
+                      <td class="label">
+                        <span>Visual Bsc</span>
+                      </td>
+                      <td class="jbar">
+                        <div id="bar-12" class="jqbar horizontal" data-label="" data-value="20", data-color="rgba(110, 180, 180, 0.4)">
+                        
+                        </div>
+                      </td>
+                    </tr>
+            </table>
+</div>
+			</div>
+    </div>
+		</div>
+
+
+
+		<div id="fourth">
+			<div class="pagepanel">
+          
+          <div id="experience"> 
+              <h3 id="title-exper">Experience</h3>
+       
+				      <div class="columns large-4">
+
+                <h5 class="exper-box mavericks">
+                 <img src="http://localhost/myweb/media/Icons/plus16.png">
+              </h5>
+                <p class="mavericks1" style="display:none">
+                  Bartender, Maverick's 80s Lounge. 
+                  From 10 October 2014 – 30 March 2015 UK, Huddersfield
+                  <ul class="mavericks1" style="display:none">
+                  <li>Responsibilities included supervising operations behind two bars, serving drinks, organising special experiences for guests, stocking and cleaning.</li>
+                  <li>Received training on cocktail preparation and developed bartending, communication and  customer service skills.</li>
+                  </ul>
+                </p>
+
+                <h5 class="exper-box wellpleased">
+                  <img src="http://localhost/myweb/media/Icons/plus16.png">
+               </h5>
+                  <p class="wellpleased1" style="display:none">
+                  Production Assistant, Wellpleased Events. From 11 October 2013 – 01 May 2014 UK, Leeds
+                      <ul class="wellpleased1" style="display:none">
+                          <li>Been working in a warehouse preparing events equipment, delivering it to event site, installing equipment and taking it down. Moreover, was working on the production of catalogue for our clients.</li>
+                          <li>Strategic planning, time management and communication skills were used and developed. </li>
+                      </ul>
+                  </p>
+               
+
+                <h5 class="exper-box litexpo">
+              <img src="http://localhost/myweb/media/Icons/plus16.png">
+            </h5>
+              <p class="litexpo1" style="display:none">
+                  Intern, Lithuanian Exhibition and Congress Centre LITEXPO. From 12 February – 1 May 2013 Lithuania, Vilnius
+                  <ul class="litexpo1" style="display:none">
+                  <li>Worked on databases and PR within conference department. Also took position of receptionist at the largest exhibition in Lithuania – Resta.</li>
+                  <li>Data handling, time management, customer service and IT skills were used.  </li>
+                </ul>
+              </p>
+
+            <h5 class="exper-box seedstaff">
+              <img src="http://localhost/myweb/media/Icons/plus16.png">
+            </h5>
+              <p class="seedstaff1" style="display:none">
+                  Traffic and Crowd Marshal Supervisor. From
+                  7 July–12 September 2012 UK, London
+                  <ul class="seedstaff1" style="display:none">
+                  <li>Managing traffic and crowd flows, allocating marshals to their positions and monitoring particular areas within the Olympic park (Eton Manor Transport Hub).</li>
+                  <li>Developed leadership, quick decision making and action planning skills. </li>
+                </ul>
+                </p>
+              
+          </div>
+           
+           <div class="columns larges-4">
+              <h5 class="exper-box kirklees">
+                 <img src="http://localhost/myweb/media/Icons/plus16.png">
+              </h5>
+                <p class="kirklees1" style="display:none">
+                  Events Team Member, Kirklees Council. From 
+                  8 March – 1 July 2012 UK, Huddersfield
+                  <ul class="kirklees1" style="display:none">
+                  <li>Was a part of Events team within the department of Communities and Leisure.</li>
+                  <li>Worked on the production of: ‘Huddersfield Carnival’, ‘Olympic Torch Relay’ and ‘Concerts in the Park’.</li>
+                  <li>The plans of Olympic Torch Route were sent to the National Office of Statistics by local police as an example. </li>
+                  <li>Developed marketing, communication, organisational and team-working skills. </li>
+                  </ul>
+                </p>
+              <h5 class="exper-box university">
+              <img src="http://localhost/myweb/media/Icons/plus16.png">
+              </h5>
+              <p class="university1" style="display:none">
+                Volunteer, ‘University of Huddersfield Support Staff Conference 2012’. From
+                  28 March 2012 UK, Huddersfield
+                  <ul class="university1" style="display:none">
+                  <li>Been a part of events team arranging and preparing meeting rooms..</li>
+                  <li>Developed excellent problem solving, time-management and organisational skills. </li>
+                </ul>
+                </p>
+
+              <h5 class="exper-box culture">
+              <img src="http://localhost/myweb/media/Icons/plus16.png" id="bowa">
+              </h5>
+              <p class="culture1" style="display:none">
+                General Assistant, ‘Vilnius European Capital of Culture 2009’. From
+                  2009 – 2010 Lithuania, Vilnius
+                  <ul class="culture1" style="display:none">
+                  <li>Work experiences in events which were related to program ‘Vilnius – European Capital of Culture 2009’. The performance of ‘Spragtukas’ (Nutcracker) and the project of ‘Icy Baroque’ were the biggest events where I took part as a general assistant and supervisor. </li>
+                </ul>
+                </p>
+          
+<!--
+            <h5 class="exper-box olympics">
+              <img src="http://localhost/myweb/media/Icons/plus16.png">
+              </h5>
+              <p class="olympics1" style="display:none">
+                Production Assistant, Wellpleased Events <br> 
+                  11 October 2013 – 01 May 2014 UK, Leeds<br>
+                  <ul class="olympics1" style="display:none">
+                  <li>Been working in a warehouse preparing events equipment, delivering it to event site, installing equipment and taking it down. Moreover, was working on the production of catalogue for our clients.</li>
+                  <li>Strategic planning, time management and communication skills were used and developed. </li>
+                </ul>
+                </p>
+
+              -->
+             
+              
+            </div>
+
+
+<div id="title-education"><p>Education</p></div>
+    </div>
+
+
+        <div id="education">
+
+
+          
+          <div class="columns large-2">
+            <h5 class="exper-box huddersfield">
+              <img src="http://localhost/myweb/media/Icons/plus16.png">
+            </h5>
+              <p class="huddersfield1" style="display:none">
+                  2010 – Present  Events Management BA. 
+                  University of Huddersfield
+                  <strong>Relevant modules:</strong><br>
+                   <ul class="huddersfield1" style="display:none">
+                  <li>
+              
+                   Operations Management, Project Management, Human Resource Management for Events, Design for Events, Events Marketing and Consumer Behaviour, Events Catering, Creativity and Innovations, IHRM, Fundraising. 
+                 </li>
+                     </ul>
+              </p>
+               
+
+            <h5 class="exper-box school">
+              <img src="http://localhost/myweb/media/Icons/plus16.png">
+            </h5>
+              <p class="school1" style="display:none">
+                  1998 - 2010 Vilnius Saint Christopher Gimnasium
+              </p>
+          </div>
+
+          <div class="columns large-1">
+            <h5 class="exper-box NKKM">
+              <img src="http://localhost/myweb/media/Icons/plus16.png">
+            </h5>
+              <p class="NKKM1" style="display:none">
+                  2003 – 2005   Natalia Kazakova Computer School<br>
+                  <strong>Relevant modules:</strong><br>
+                   HTML, XML, JavaScript, Ajax, MySQL, PHP, C#, Java, Visual Basic, MS Office, Paint Shop Pro, Flash. 
+              </p>
+          </div>
+			</div>
+		</div>
+</div>
+
+
+		<div id="fifth">
+      
+      
+      <div id="gallery">
+
+          <div id="slider" class="sl-slider-wrapper">
+              
+              <div class="sl-slider">
+  
+                  <div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+
+                    <div class="sl-slide-inner">
+                      <!--BEGIN Email form popup-->
+                      <div id="hidden1">
+                       <div class="hidden" id="hidden_1">
+                        <div id="hidden_content1">
+                          
+                          <img class="close" src="http://localhost/myweb/media/close.png">
+                         <!-- <img id="hidd-ev" src="http://localhost/myweb/media/hidd-events.jpg"> -->
+                        <p><span class="hidden-title">Events management service provided would include the following:</span></p>
+                        <p><span class="hidden-bolder">Commisioning and Planning;</span></p>
+                  
+
+                        <ul>
+                          <li>Researching, developing and planning your event</li>
+                          <li>Data collecting and telesales to help promote a product or event</li>
+                          <li>Social media management</li>
+                          <li>Promotions including promo staff, flyer's and more</li>
+                          <li>Staff, clients and delegates travel and accommodation requirements </li>
+                        </ul>
+
+                        <p><span class="hidden-bolder">On the day</span></p>
+
+                        <ul>
+                          <li>Management of the day to ensure the event runs smoothly</li>
+                          <li>Organisation of speakers/trainers, room layout and equipment</li>
+                          <li>Catering and event staff</li>
+                          <li>Security for events</li>
+                          <li>Staging and AV staff along with technical support</li>
+                          <li>Registration staff</li>
+                        </ul>
+
+                        <p><span class="hidden-bolder">Follow up</span></p>
+                        <ul>
+                          <li>Event evaluation</li>
+                          <li>Post event surveys to make sure the event was a success</li>
+                          <li>After event sales solutions keeping your event or product in the eye of the target audience </li>
+                        </ul>
+
+                        </div>
+                      </div>
+                    </div>
+<!--END  of HIDDEN pop up-->
+
+                      <div class="deco" data-icon=""></div>
+                      
+                       <blockquote id="first-quote"><p>Events management. It is truly about engaging with people through their senses transcending memoriable experiences that create positive images and foster enhanced communication on a human level.</br>
+                      </p>
+                     
+
+
+                      </blockquote>
+                      
+                     <img  class="plus" id="hid1" data-product_id="1" src="http://localhost/myweb/media/plus.png">
+
+                    </div>
+
+                  </div>
+
+                  
+
+                  <div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                   <div class="sl-slide-inner">
+                           <!--BEGIN Email form popup-->
+                      <div id="hidden2">
+                       <div class="hidden" id="hidden_2">
+                        <div id="hidden_content2">
+                          <img class="close" src="http://localhost/myweb/media/close.png">
+                          <p><span class="hidden-title">Event Types</span> </p>
+                          <p>Events management is a broad area encompasing numerous types of events with different range of impacts driving </br>postive sustainable change. Events could be described as a communication channel creating experiences that are </br>associated with the product, brand or specific ideas. These associations must be managed carefully throughout all stages </br> of the event in order to sustain sufficient levels of return on investment or achieve desired outcomes. Each type of ocasion </br> has unique communication preferences however all of them share common trait - experience factor that allows to escape </br> the reality and engage with others on a human level. Event types I feel comfortable with:    </p>
+                        <ul>
+                          <li>Creative Arts / Community Events</li>
+                          <li>Brands/Product Launch</li>
+                          <li>Experiential Marketing Events</li>
+                          <li>Sports Events</li>
+                          <li>Themed Private Events</li>
+                          <li>Conference Management </li>
+                          <li>Networking Events</li>
+                        </ul>
+                          
+                          
+                        </div>
+                      </div>
+                    </div>
+<!--END  of HIDDEN pop up-->
+
+                      <div class="deco" data-icon=""></div>
+                    
+                       <blockquote id="second-quote" ><p>
+                        Types of events. I haven't got much experience in organising large or medium scale events, however I feel comfortable organising MICE type events, small and medium art festivals, sports tournaments and personal events. I am content, not the crowd, driven person who is focusing on primary goals of the event.
+                       
+                      </p></blockquote>
+                      <img  class="plus" id="hid2" data-product_id="2" src="http://localhost/myweb/media/plus.png">
+                    </div>
+                  </div>
+
+                <div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                         <!--BEGIN Email form popup-->
+                      <div id="hidden3">
+                       <div class="hidden" id="hidden_3">
+                        <div id="hidden_content3">
+                          <img class="close" src="http://localhost/myweb/media/close.png">
+                          <p><span class="hidden-title">Web devleopment expanded</span></p>
+                          <p>Constant learning and awareness of latest tech developments allows me to offer professional web development and </br> design services. Initial focus is on projects related to events industry as academic bacground provides an </br>understanding about  communication needs for different types of events. Nevertheless, creativity isn't limited thus </br> encompasing online initiatives of small businesses, NGO's or individual artists. Services would include: </p>
+                        <ul>
+                          <li>Strategic planning and consulting</li>
+                          <li>User Experience (UX) and User Interface (UI) design </li>
+                          <li>Valid HTML 5 and CSS 3 Markup</li>
+                          <li>Responsive web design</li>
+                          <li>Wordpress, Drupal or custom CMS development</li>
+                          <li>Magento, Open Cart or custom e-commerce solutions</li>
+                          <li>Custom web solutions development</li>
+                          <li>SEO friendly web design</li>
+                        </ul>
+                          
+                       
+ </div>
+                      </div>
+                    </div>
+<!--END  of HIDDEN pop up-->
+                  <div class="deco" data-icon=""></div>
+               
+                  <blockquote id="third-quote"><p>
+
+                    <!--new-->Front end web development. Event managers quite often emphasise the importance of 'first impressions' created before actually entering the venue. Event web page becomes a frontier delivering carefully crafted messages to various target audiences.</p></blockquote>
+                  <img  class="plus" id="hid3" data-product_id="3" src="http://localhost/myweb/media/plus.png">
+                </div>
+              </div>
+          
+              <div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                         <!--BEGIN Email form popup-->
+                      <div id="hidden4">
+                       <div class="hidden" id="hidden_4">
+                        <div id="hidden_content4">
+                          <img class="close" src="http://localhost/myweb/media/close.png">
+                          <p><span class="hidden-title">Crowdsourcing solutions</span></p>
+                          <p>Crowdsourcing and crowdfunding are getting the momentum nowadays allowing entrepreneurs engage in communication </br> process with final customers who become working consumers. Crowdsourcing not only allows to save costs, shorten length </br> of product development, create market acceptance and improve quality of a product but also provides different funding </br> solutions polished to fit individual needs such as equity, donations and lending crowdfunding platforms. In dissertation I </br> have argued that crowdsourcing should be used among UK event industry leaders together with public sector </br> representatives in order to influence public grants allocation process for creative projects. Personal tutor allowed to call </br> myself an expert within this field thus I feel comfortable providing services as follows:</p>
+
+                                                 <ul>
+                          <li>Setup</li>
+                          <li>Design</li>
+                          <li>Pre-launch</li>
+                          <li>Audience</li>
+                          <li>Advocacy</li>
+                          <li>Crowfunding campaign</li>
+                          <li>Public Relations</li>
+                          <li>Post campaign</li>
+                        </ul>
+                      </div>
+                      </div>
+                    </div>
+<!--END  of HIDDEN pop up-->
+                  <div class="deco" data-icon=""></div>
+                  
+                  <blockquote id="fourth-quote"><p>
+                    Crowdsourcing and crowdfunding. This area interests me the most thus I wrote a dissertation on topic 'How can crowdfunding facilitate access to traditional funding sources for community events in UK?' offering new funding model.
+                  </p></blockquote>
+                  <img  class="plus" id="hid4" data-product_id="4" src="http://localhost/myweb/media/plus.png">
+                </div>
+              </div>
+          
+              <div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                         <!--BEGIN Email form popup-->
+                      <div id="hidden5">
+                       <div class="hidden" id="hidden_5">
+                        <div id="hidden_content5">
+                          <img class="close" src="http://localhost/myweb/media/close.png">
+
+                          <p><span class="hidden-title">Experiential Marketing Events</span></p>
+                          <p>While traditional advertising (radio, print, television) verbally and visually communicates the brand and product benefits, </br> experiential marketing tries to immerse the consumers within the product by engaging as many other human senses as </br> possible. In this way, experiential marketing can encompass a variety of other marketing strategies from individual </br> sampling to large-scale guerrilla marketing. The goal of experiential marketing is to form a memorable and emotional </br> connection between the consumer and the brand so that it may generate customer loyalty and influence purchase </br> decision. Services for experiential include:</p>
+                        <ul>
+                          <li>Experiential Strategy and Planning</li>
+                          <li>Conceptual Creative and Experience Design</li>
+                          <li>Immersive Brand-led Events</li>
+                          <li>Roadshows</li>
+                          <li>Exhibitions</li>
+                          <li>Shopping Centre Tours</li>
+                          <li>Festival Events</li>
+                          <li>Sampling</li>
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
+<!--END  of HIDDEN pop up-->
+                    <div class="deco" data-icon=""></div>
+                    
+                    <blockquote id="fifth-quote"><p>Experiential marketing. I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p></blockquote>
+                    <img  class="plus" id="hid5" data-product_id="5" src="http://localhost/myweb/media/plus.png">
+                </div>
+              </div>
+         </div>
+    <!-- navs -->
+              <nav id="nav-arrows" class="nav-arrows">
+                  <span class="nav-arrow-prev">Previous</span>
+                  <span class="nav-arrow-next">Next</span>
+              </nav>
+
+              <nav id="nav-dots" class="nav-dots">
+                  <span class="nav-dot-current"></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </nav>
+        </div>
+      </div>
+</div>
+</div>
+
+
+
+   
+    <script type="text/javascript"> 
+      $(function() {
+      
+        var Page = (function() {
+
+          var $navArrows = $( '#nav-arrows' ),
+            $nav = $( '#nav-dots > span' ),
+            slitslider = $( '#slider' ).slitslider( {
+              onBeforeChange : function( slide, pos ) {
+
+                $nav.removeClass( 'nav-dot-current' );
+                $nav.eq( pos ).addClass( 'nav-dot-current' );
+
+              }
+            } ),
+
+            init = function() {
+
+              initEvents();
+              
+            },
+            initEvents = function() {
+
+              // add navigation events
+              $navArrows.children( ':last' ).on( 'click', function() {
+
+                slitslider.next();
+                return false;
+
+              } );
+
+              $navArrows.children( ':first' ).on( 'click', function() {
+                
+                slitslider.previous();
+                return false;
+
+              } );
+
+              $nav.each( function( i ) {
+              
+                $( this ).on( 'click', function( event ) {
+                  
+                  var $dot = $( this );
+                  
+                  if( !slitslider.isActive() ) {
+
+                    $nav.removeClass( 'nav-dot-current' );
+                    $dot.addClass( 'nav-dot-current' );
+                  
+                  }
+                  
+                  slitslider.jump( i + 1 );
+                  return false;
+                
+                } );
+                
+              } );
+
+            };
+
+            return { init : init };
+
+        })();
+
+        Page.init();
+
+        /**
+         * Notes: 
+         * 
+         * example how to add items:
+         */
+
+        /*
+        
+        var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+        
+        // call the plugin's add method
+        ss.add($items);
+
+        */
+      
+      });
+    </script>
+ 
+<!-- FOOTER Social icons and contact-->
+
+		<div id="sixth">
+			<div id="contact">
+         <h5 id="footer-heading">CONTACT</h5>
+      </div>
+        <div class="footer-element1">
+
+<!--BEGIN Email form popup-->
+          <div id="background-popout">
+            <div class="popout" id="popout_1">
+              <div class="popout_content">
+
+                <!-- neveikia exit mygtukas nes reikia istrinti a href linka, clashinas. bet kai istrini lygiavimas susipisa -->
+                <a href="" id="exit">
+                  <img  src="http://localhost/myweb/media/x-icon.png"></a>
+                
+                <div id="form-div">
+                  <p>Make a quick note and I'll get back to you as soon as possible!</p>
+                  <form class="form" id="form1">
+                    <p class="name">
+                      <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                    </p>
+                    <p class="email">
+                      <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                    </p>
+                    <p class="text">
+                      <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                    </p>
+                    
+                    <div class="submit">
+                      <input type="submit" value="SEND" id="button-blue"/>
+                      <div class="ease"></div>
+                    </div>
+                  </form>
+                </div>
+
+  <!--END  of HIDDEN pop up-->
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-element2"> 
+          
+         <!-- <iframe  id="minimap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1220568.7145211624!2d-1.2438770578124994!3d53.308820409722856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487962132bcdb7bb%3A0x653c3a498c896a17!2sHuddersfield%2C+West+Yorkshire%2C+UK!5e0!3m2!1sen!2s!4v1412783868594" width="400" height="270" frameborder="0" style="border:0">
+          </iframe>-->
+        </div>
+
+        <div id="credentials">
+           
+           
+          <div id="icons">
+            <a href="http://www.faacebook.com/d.starkus" target="_blank"><div class="social-icons" id="facebook"></div></a>
+            <a href="http://https://www.twitter.com/donatas_s" target="_blank"> <div class="social-icons" id="twitter"></div></a>
+            <a href="http://uk.linkedin.com/pub/donatas-starkus/47/12b/b00/" target="_blank"> <div class="social-icons" id="linkedin"></div></a>
+            <a href="http://www.google.com/+DonatasStarkus" target="_blank"> <div class="social-icons" id="google"></div></a>
+            <a href="skype:donatas_cia_as1?chat?"><div class="social-icons" id="skype"></div></a>
+            <div class="social-icons topopout" data-product_id="1" id="press"></div>   
+          </div> 
+
+          <div class="emailsai">
+            <p>donatas.starkus@gmail.com 0752852452 Event Services </p>
+          </div>
+          </div>
+			
+		</div>
+
+		
+
+
+	</body>
+  <!-- scriptas pop up pageui pradzia -->
+<script type="text/javascript">
+
+jQuery(function($) {
+
+  $(".topopout").click(function() {
+    var product_id = $(this).data('product_id');
+    loadPopout(product_id);
+  });
+
+  
+    $("#exit").click(function() {
+    disablePopout();  // function close pop up
+  });
+
+  var popoutStatus = 0; // set value
+
+  function loadPopout(product_id) {
+    if(popoutStatus == 0) { // if value is 0, show popup
+      $("#popout_"+product_id).fadeIn(0500); // fadein popup div
+      $("#background-popout").css("opacity", "1"); // css opacity, supports IE7, IE8
+      $("#background-popout").fadeIn(0001);
+      popupStatus = 1; // and set value to 1
+    }
+  }
+
+  function disablePopout() {
+    if(popupStatus == 1) { // if value is 1, close popup
+      $(".popout").fadeOut("normal");
+      $("#background-popout").fadeOut("normal");
+      popoutStatus = 0;  // and set value to 0
+    }
+  }
+
+});
+
+
+</script>
+
+
+  <!-- pabaiga pop up page scripto -->
+
+
+  <!-- scriptas pop up sliderio pirmas pradzia -->
+<script type="text/javascript">
+
+jQuery(function($) {
+
+  $("#hid1").click(function() {
+    var product_id = $(this).data('product_id');
+    loadPopout(product_id);
+  });
+
+  
+    $(".close").click(function() {
+    disablePopout();  // function close pop up
+  });
+
+  var popoutStatus = 0; // set value
+
+  function loadPopout(product_id) {
+    if(popoutStatus == 0) { // if value is 0, show popup
+      $("#hidden_"+product_id).fadeIn(0500); // fadein popup div
+      $("#hidden1").css("opacity", "1"); // css opacity, supports IE7, IE8
+      $("#hidden1").fadeIn(0001);
+      popupStatus = 1; // and set value to 1
+    }
+  }
+
+  function disablePopout() {
+    if(popupStatus == 1) { // if value is 1, close popup
+      $(".hidden").fadeOut();
+      $("#hidden1").fadeOut();
+      popoutStatus = 0;  // and set value to 0
+    }
+  }
+});
+
+
+</script>
+
+
+  <!-- pabaiga pop up page scripto -->
+
+    <!-- scriptas pop up sliderio 2 pradzia -->
+<script type="text/javascript">
+
+jQuery(function($) {
+
+  $("#hid2").click(function() {
+    var product_id = $(this).data('product_id');
+    loadPopout(product_id);
+  });
+
+  
+    $(".close").click(function() {
+    disablePopout();  // function close pop up
+  });
+
+  var popoutStatus = 0; // set value
+
+  function loadPopout(product_id) {
+    if(popoutStatus == 0) { // if value is 0, show popup
+      $("#hidden_"+product_id).fadeIn(0500); // fadein popup div
+      $("#hidden2").css("opacity", "1"); // css opacity, supports IE7, IE8
+      $("#hidden2").fadeIn(0001);
+      popupStatus = 1; // and set value to 1
+    }
+  }
+
+  function disablePopout() {
+    if(popupStatus == 1) { // if value is 1, close popup
+      $(".hidden").fadeOut();
+      $("#hidden2").fadeOut();
+      popoutStatus = 0;  // and set value to 0
+    }
+  }
+});
+
+
+</script>
+
+
+  <!-- pabaiga pop up page scripto -->
+
+  <!-- scriptas pop up sliderio 3 pradzia -->
+<script type="text/javascript">
+
+jQuery(function($) {
+
+  $("#hid3").click(function() {
+    var product_id = $(this).data('product_id');
+    loadPopout(product_id);
+  });
+
+  
+    $(".close").click(function() {
+    disablePopout();  // function close pop up
+  });
+
+  var popoutStatus = 0; // set value
+
+  function loadPopout(product_id) {
+    if(popoutStatus == 0) { // if value is 0, show popup
+      $("#hidden_"+product_id).fadeIn(0500); // fadein popup div
+      $("#hidden3").css("opacity", "1"); // css opacity, supports IE7, IE8
+      $("#hidden3").fadeIn(0001);
+      popupStatus = 1; // and set value to 1
+    }
+  }
+
+  function disablePopout() {
+    if(popupStatus == 1) { // if value is 1, close popup
+      $(".hidden").fadeOut();
+      $("#hidden3").fadeOut();
+      popoutStatus = 0;  // and set value to 0
+    }
+  }
+});
+
+
+</script>
+
+
+  <!-- pabaiga pop up page scripto -->
+
+    <!-- scriptas pop up sliderio 4 pradzia -->
+<script type="text/javascript">
+
+jQuery(function($) {
+
+  $("#hid4").click(function() {
+    var product_id = $(this).data('product_id');
+    loadPopout(product_id);
+  });
+
+  
+    $(".close").click(function() {
+    disablePopout();  // function close pop up
+  });
+
+  var popoutStatus = 0; // set value
+
+  function loadPopout(product_id) {
+    if(popoutStatus == 0) { // if value is 0, show popup
+      $("#hidden_"+product_id).fadeIn(0500); // fadein popup div
+      $("#hidden4").css("opacity", "1"); // css opacity, supports IE7, IE8
+      $("#hidden4").fadeIn(0001);
+      popupStatus = 1; // and set value to 1
+    }
+  }
+
+  function disablePopout() {
+    if(popupStatus == 1) { // if value is 1, close popup
+      $(".hidden").fadeOut();
+      $("#hidden4").fadeOut();
+      popoutStatus = 0;  // and set value to 0
+    }
+  }
+});
+
+
+</script>
+
+
+  <!-- pabaiga pop up page scripto -->
+
+      <!-- scriptas pop up sliderio 5 pradzia -->
+<script type="text/javascript">
+
+jQuery(function($) {
+
+  $("#hid5").click(function() {
+    var product_id = $(this).data('product_id');
+    loadPopout(product_id);
+  });
+
+  
+    $(".close").click(function() {
+    disablePopout();  // function close pop up
+  });
+
+  var popoutStatus = 0; // set value
+
+  function loadPopout(product_id) {
+    if(popoutStatus == 0) { // if value is 0, show popup
+      $("#hidden_"+product_id).fadeIn(0500); // fadein popup div
+      $("#hidden5").css("opacity", "1"); // css opacity, supports IE7, IE8
+      $("#hidden5").fadeIn(0001);
+      popupStatus = 1; // and set value to 1
+    }
+  }
+
+  function disablePopout() {
+    if(popupStatus == 1) { // if value is 1, close popup
+      $(".hidden").fadeOut();
+      $("#hidden5").fadeOut();
+      popoutStatus = 0;  // and set value to 0
+    }
+  }
+});
+
+
+</script>
+
+
+  <!-- pabaiga pop up page scripto -->
+
+
+<script type="text/javascript">
+    var first = $('#first').offset().top + $('#first').height();
+    var second = $('#second').offset().top + $('#second').height();
+    var third = $('#third').offset().top + $('#third').height();
+    var fourth = $('#fourth').offset().top + $('#fourth').height();
+    var fifth = $('#fifth').offset().top + $('#fifth').height();
+    $(window).on('scroll',function(){
+      stop = Math.round($(window).scrollTop());
+    if (stop > first) {
+        $('.header').addClass('header-past-first');
+    } else {
+        $('.header').removeClass('header-past-first');
+   }
+  if (stop > second) {
+        $('.header').addClass('header-past-second');
+    } else {
+        $('.header').removeClass('header-past-second');
+   }
+   if (stop > third) {
+        $('.header').addClass('header-past-third');
+    } else {
+        $('.header').removeClass('header-past-third');
+   }
+   if (stop > fourth) {
+        $('.header').addClass('header-past-fourth');
+    } else {
+        $('.header').removeClass('header-past-fourth');
+   }
+   if (stop > fifth) {
+        $('.header').addClass('header-past-fifth');
+    } else {
+        $('.header').removeClass('header-past-fifth');
+   }
+  
+});
+    //header changing parameters after slides pass certain content
+    </script>
+
+  <!-- scriptas pop up sliderio 5 pradzia -->
+<script type="text/javascript">
+
+jQuery(function($) {
+
+  $(".hid1").click(function() {
+    var product_id = $(this).data('product_id');
+    loadPopout(product_id);
+  });
+
+  
+    $("#close").click(function() {
+    disablePopout();  // function close pop up
+  });
+
+  var popoutStatus = 0; // set value
+
+  function loadPopout(product_id) {
+    if(popoutStatus == 0) { // if value is 0, show popup
+      $("#hidden_"+product_id).fadeIn(0500); // fadein popup div
+      $("#hidden1").css("opacity", "1"); // css opacity, supports IE7, IE8
+      $("#hidden1").fadeIn(0001);
+      popupStatus = 1; // and set value to 1
+    }
+  }
+
+  function disablePopout() {
+    if(popupStatus == 1) { // if value is 1, close popup
+      $(".hidden").fadeOut();
+      $("#hidden1").fadeOut();
+      popoutStatus = 0;  // and set value to 0
+    }
+  }
+});
+
+
+</script>
+
+
+  <!-- pabaiga pop up page scripto -->
+
+
+<script type="text/javascript">
+
+      $(document).ready(function() {
+        function filterPath(string) {
+       return string
+          .replace(/^\//,'')
+            .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+          .replace(/\/$/,'');
+       }
+        var locationPath = filterPath(location.pathname);
+        var scrollElem = scrollableElement('html', 'body', 'div', 'h1', 'h3', 'p', 'a');
+ 
+        $('a[href*=#]').each(function() {
+          var thisPath = filterPath(this.pathname) || locationPath;
+          if (  locationPath == thisPath
+          && (location.hostname == this.hostname || !this.hostname)
+          && this.hash.replace(/#/,'') ) {
+          var $target = $(this.hash), target = this.hash;
+            if (target) {
+             var targetOffset = $target.offset().top;
+             $(this).click(function(event) {
+               event.preventDefault();
+               $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+                 location.hash = target;
+                });
+              });
+            }
+         }
+        });
+ 
+        // use the first element that is "scrollable"
+        function scrollableElement(els) {
+          for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+           var el = arguments[i],
+                $scrollElement = $(el);
+           if ($scrollElement.scrollTop()> 0) {
+              return el;
+           } else {
+             $scrollElement.scrollTop(1);
+             var isScrollable = $scrollElement.scrollTop()> 0;
+              $scrollElement.scrollTop(0);
+              if (isScrollable) {
+                return el;
+             }
+            }
+          }
+          return [];
+       }
+ 
+      });
+// scrollas po clicko ant headerio linku
+    </script>
+
+    
+
+    <script type="text/javascript">
+      WebFontConfig = {
+      google: { families: [ 'Oxygen::latin' ] }
+      };
+      (function() {
+         var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })(); 
+    </script>
+    
+<script type="text/javascript">
+$('.wellpleased').click(function () {
+  $('.wellpleased1').slideToggle();
+    });
+$('.litexpo').click(function () {
+  $('.litexpo1').slideToggle();
+    });
+$('.seedstaff').click(function () {
+  $('.seedstaff1').slideToggle();
+    });
+$('.kirklees').click(function () {
+  $('.kirklees1').slideToggle();
+    });
+$('.olympics').click(function () {
+  $('.olympics1').slideToggle();
+    });
+$('.mavericks').click(function () {
+  $('.mavericks1').slideToggle();
+    });
+$('.university').click(function () {
+  $('.university1').slideToggle();
+    });
+$('.culture').click(function () {
+  $('.culture1').slideToggle();
+    });
+$('.huddersfield').click(function () {
+  $('.huddersfield1').slideToggle();
+    });
+$('.school').click(function () {
+  $('.school1').slideToggle();
+    });
+$('.NKKM').click(function () {
+  $('.NKKM1').slideToggle();
+    });
+</script>
+
+
+<script type="text/javascript">
+function toggleElement1(){
+       if($('#colhead1').is(':visible')) {
+            $('#colhead1').fadeOut('slow');
+        }
+        else{
+            $('#colhead1').fadeIn('slow');
+        }
+    }
+</script>
+
+<script type="text/javascript">
+function toggleElement2(){
+       if($('#colhead2').is(':visible')) {
+            $('#colhead2').fadeOut('slow');
+        }
+        else{
+            $('#colhead2').fadeIn('slow');
+        }
+    }
+</script>
+<script type="text/javascript">
+function toggleElement3(){
+       if($('#colhead3').is(':visible')) {
+            $('#colhead3').fadeOut('slow');
+        }
+        else{
+            $('#colhead3').fadeIn('slow');
+        }
+    }
+</script>
+<script type="text/javascript">
+function toggleElement4(){
+       if($('#colhead4').is(':visible')) {
+            $('#colhead4').fadeOut('slow');
+        }
+        else{
+            $('#colhead4').fadeIn('slow');
+        }
+    }
+</script>
+
+
+
+ 
+<script type="text/javascript">
+  function isScrolledIntoView(elem) {
+      var docViewTop = $(window).scrollTop();
+      var docViewBottom = docViewTop + $(window).height();
+      var elemTop = $(elem).offset().top;
+      var elemBottom = elemTop + $(elem).height();
+      return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  }
+
+  $(function(){
+    $(window).scroll(function(){
+      if (isScrolledIntoView($('#skills'))) {
+        $('#bar-1, #bar-2, #bar-3, #bar-4, #bar-5, #bar-6, #bar-7, #bar-8, #bar-9, #bar-10, #bar-11, #bar-12').each(function(){
+          if (!$(this).hasClass('initialized')){
+            $(this).jqbar({ label: $(this).data('label'), value: parseInt($(this).data('value')), barColor: $(this).data('color') });
+            console.log($(this).data('label'), $(this).data('value'), $(this).data('color'))
+            $(this).addClass('initialized');
+          }
+        })
+
+      }
+    })
+
+
+  })
+  //baru didejimas skillsu psl
+  </script>
+
+<!--
+<script type="text/javascript">
+//this is where we apply opacity to the arrow
+$(window).scroll( function(){
+
+  //get scroll position
+  var topWindow = $(window).scrollTop();
+  //multipl by 1.5 so the arrow will become transparent half-way up the page
+  var topWindow = topWindow * 1.5;
+  
+  //get height of window
+  var windowHeight = $(window).height();
+      
+  //set position as percentage of how far the user has scrolled 
+  var position = topWindow / windowHeight;
+  //invert the percentage
+  position = 1 - position;
+
+  //define arrow opacity as based on how far up the page the user has scrolled
+  //no scrolling = 1, half-way up the page = 0
+  $('.arrow-wrap').css('opacity', position);
+
+});
+
+</script>
+-->
+
+
+</html>
