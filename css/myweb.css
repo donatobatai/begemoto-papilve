@@ -135,7 +135,7 @@ a:visited {
 #first {
 	position: relative;
 	background-color: rgba(0,0,0, 0.4);
-background-image: url("http://localhost/myweb/media/patterns/grid.png");
+background-image: url("../media/patterns/grid.png");
 	width: 100%;
 	margin-top: 0px;
 	height:740px;
@@ -331,7 +331,7 @@ a > p:hover {
 	margin-left: 0px;
 	margin-top: 1px;
 	background: rgba(0,0,0, 0.6);
-	background-image: url("http://localhost/myweb/media/patterns/grid.png");
+	background-image: url("../media/patterns/grid.png");
 	color: white;
 	
 	}
@@ -499,7 +499,7 @@ position: absolute;
   width:97px;
   height:96px;
   border-radius: 50%;
-  background-image: url(http://localhost/myweb/media/mec1.png);
+  background-image: url(../media/mec1.png);
   background-repeat:no-repeat;
   background-position:50% 50%;
   z-index: 1;
@@ -517,7 +517,7 @@ position: absolute;
   width:97px;
   height:96px;
   border-radius: 50%;
-  background-image: url(http://localhost/myweb/media/mec1c.png);
+  background-image: url(../media/mec1c.png);
   background-repeat:no-repeat;
   background-position:50% 50%;
   z-index: 1;
@@ -592,7 +592,7 @@ position: absolute;
   width:74px;
   height:75px;
   border-radius: 50%;
-  background-image: url(http://localhost/myweb/media/mec2.png);
+  background-image: url(../media/mec2.png);
   background-repeat:no-repeat;
   background-position:50% 50%;
   z-index: 1;
@@ -610,7 +610,7 @@ position: absolute;
   width:74px;
   height:75px;
   border-radius: 50%;
-  background-image: url(http://localhost/myweb/media/mec2c.png);
+  background-image: url(../media/mec2c.png);
   background-repeat:no-repeat;
   background-position:50% 50%;
   z-index: 1;
@@ -684,7 +684,7 @@ position: absolute;
   width:56px;
   height:57px;
   border-radius: 50%;
-  background-image: url(http://localhost/myweb/media/mec3.png);
+  background-image: url(../media/mec3.png);
   background-repeat:no-repeat;
   background-position:50% 50%;
   z-index: 1;
@@ -702,7 +702,7 @@ position: absolute;
   width:56px;
   height:57px;
   border-radius: 50%;
-  background-image: url(http://localhost/myweb/media/mec3c.png);
+  background-image: url(../media/mec3c.png);
   background-repeat:no-repeat;
   background-position:50% 50%;
   z-index: 1;
@@ -776,7 +776,7 @@ position: absolute;
   width:80px;
   height:81px;
   border-radius: 50%;
-  background-image: url(http://localhost/myweb/media/mec4.png);
+  background-image: url(../media/mec4.png);
   background-repeat:no-repeat;
   background-position:50% 50%;
   z-index: 1;
@@ -794,7 +794,7 @@ position: absolute;
   width:80px;
   height:81px;
   border-radius: 50%;
-  background-image: url(http://localhost/myweb/media/mec4c.png);
+  background-image: url(../media/mec4c.png);
   background-repeat:no-repeat;
   background-position:50% 50%;
   z-index: 1;
@@ -1089,12 +1089,12 @@ font-weight: normal;
 	height: 26px;
 	width: 46px;
 	background-repeat: no-repeat;
-	background-image: url("http://localhost/myweb/media/downas.png");
+	background-image: url("../media/downas.png");
 }
 
 
 #icon-down2:hover {
-	background-image: url("http://localhost/myweb/media/downas-hover.png");
+	background-image: url("../media/downas-hover.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	margin-left: 50px;
@@ -1126,14 +1126,14 @@ font-weight: normal;
 }
 
 .exper-box.mavericks {
-	background-image: url("http://localhost/myweb/media/mavericks2.png");
+	background-image: url("../media/mavericks2.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 }
 
 .exper-box.mavericks:hover {
 	background-color: rgb(110,180,180);
-	background-image: url("http://localhost/myweb/media/mavericks2.png");
+	background-image: url("../media/mavericks2.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1147,14 +1147,14 @@ font-weight: normal;
 	padding-bottom: 2px;
 }
 .exper-box.wellpleased {
-	background-image: url("http://localhost/myweb/media/wellpleased2.png");
+	background-image: url("../media/wellpleased2.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 }
 
 .exper-box.wellpleased:hover {
 	background-color: rgb(46, 92, 124);
-	background-image: url("http://localhost/myweb/media/wellpleased2.png");
+	background-image: url("../media/wellpleased2.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1173,14 +1173,14 @@ font-weight: normal;
 
 
 .exper-box.litexpo {
-	background-image: url("http://localhost/myweb/media/litexpo2.png");
+	background-image: url("../media/litexpo2.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 
 }
 .exper-box.litexpo:hover {
 	background-color: rgb(255, 92, 92);
-	background-image: url("http://localhost/myweb/media/litexpo2.png");
+	background-image: url("../media/litexpo2.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1195,13 +1195,13 @@ font-weight: normal;
 }
 
 .exper-box.seedstaff {
-	background-image: url("http://localhost/myweb/media/staff.png");
+	background-image: url("../media/staff.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 }
 .exper-box.seedstaff:hover {
 	background-color: rgb(53, 138, 53);
-	background-image: url("http://localhost/myweb/media/staff.png");
+	background-image: url("../media/staff.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1216,13 +1216,13 @@ font-weight: normal;
 }
 
 .exper-box.kirklees {
-	background-image: url("http://localhost/myweb/media/kirklees.png");
+	background-image: url("../media/kirklees.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 }
 .exper-box.kirklees:hover {
 	background-color: rgb(184, 92, 138);
-	background-image: url("http://localhost/myweb/media/kirklees.png");
+	background-image: url("../media/kirklees.png");
 	margin: 0px;
 	transition-property: all;
 	transition-duration: 0.5s;
@@ -1247,13 +1247,13 @@ font-weight: normal;
 */
 
 .exper-box.university {
-	background-image: url("http://localhost/myweb/media/university3.png");
+	background-image: url("../media/university3.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 }
 .exper-box.university:hover {
 	background-color: rgb(255, 173, 92);
-	background-image: url("http://localhost/myweb/media/university3.png");
+	background-image: url("../media/university3.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1268,14 +1268,14 @@ font-weight: normal;
 }
 
 .exper-box.culture {
-	background-image: url("http://localhost/myweb/media/cultures.png");
+	background-image: url("../media/cultures.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 
 }
 .exper-box.culture:hover {
 	background-color: rgb(153, 0, 51);
-	background-image: url("http://localhost/myweb/media/cultures.png");
+	background-image: url("../media/cultures.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1290,14 +1290,14 @@ font-weight: normal;
 }
 
 .exper-box.huddersfield {
-	background-image: url("http://localhost/myweb/media/university3.png");
+	background-image: url("../media/university3.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 }
 
 .exper-box.huddersfield:hover {
 	background-color: rgb(110,180,180);
-	background-image: url("http://localhost/myweb/media/university3.png");
+	background-image: url("../media/university3.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1312,7 +1312,7 @@ font-weight: normal;
 }
 
 .exper-box.school {
-	background-image: url("http://localhost/myweb/media/school.png");
+	background-image: url("../media/school.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 
@@ -1320,7 +1320,7 @@ font-weight: normal;
 
 .exper-box.school:hover {
 	background-color: rgb(110,180,180);
-	background-image: url("http://localhost/myweb/media/school.png");
+	background-image: url("../media/school.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1335,14 +1335,14 @@ font-weight: normal;
 }
 
 .exper-box.NKKM {
-	background-image: url("http://localhost/myweb/media/nkkm.png");
+	background-image: url("../media/nkkm.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 }
 
 .exper-box.NKKM:hover {
 	background-color: rgb(110,180,180);
-	background-image: url("http://localhost/myweb/media/nkkm.png");
+	background-image: url("../media/nkkm.png");
 	background-repeat: no-repeat;
 	margin: 0px;
 	transition-property: all;
@@ -1628,7 +1628,7 @@ margin-top: 0px;
 	margin: -110px 0 0 -110px;
 	
 	
-	background-image: url("http://localhost/myweb/media/brain-circle.png");
+	background-image: url("../media/brain-circle.png");
 }
 
 
@@ -1765,7 +1765,7 @@ span.hidden-bolder {
 /* First Slide */
 .bg-1 .sl-slide-inner,
 .bg-1 .sl-content-slice {
-	background-image: url("http://localhost/myweb/media/cucumber.jpg");
+	background-image: url("../media/cucumber.jpg");
 	background-size: 100%;
 }
 
@@ -1828,7 +1828,7 @@ span.hidden-bolder {
     padding-left: 100px;
     padding-top: 20px;
     font-size: 20px;
-    background-image: url("http://localhost/myweb/media/hidd1-bcg.jpg");
+    background-image: url("../media/hidd1-bcg.jpg");
 	background-size: 100%;
 
 } 
@@ -1838,7 +1838,7 @@ span.hidden-bolder {
 /* Second Slide */
 .bg-2 .sl-slide-inner,
 .bg-2 .sl-content-slice {
-	background-image: url("http://localhost/myweb/media/sun.jpg");
+	background-image: url("../media/sun.jpg");
 	background-size: 100%;
 }
 
@@ -1863,7 +1863,7 @@ span.hidden-bolder {
     padding-left: 100px;
     padding-top: 20px;
     font-size: 20px;
-    background-image: url("http://localhost/myweb/media/hidd2-bcg.jpg");
+    background-image: url("../media/hidd2-bcg.jpg");
 	background-size: 100%;
 	color: white;
 } 
@@ -1883,7 +1883,7 @@ span.hidden-bolder {
 	margin: -110px 0 0 -110px;
 	
 	
-	background-image: url("http://localhost/myweb/media/brain-types.png");
+	background-image: url("../media/brain-types.png");
 }
 
 
@@ -1894,7 +1894,7 @@ span.hidden-bolder {
 /* Third Slide */
 .bg-3 .sl-slide-inner,
 .bg-3 .sl-content-slice {
-background-image: url("http://localhost/myweb/media/rasp.jpg");
+background-image: url("../media/rasp.jpg");
 background-size: 100%;
 }
 
@@ -1916,7 +1916,7 @@ background-size: 100%;
 	margin: -110px 0 0 -110px;
 	
 	
-	background-image: url("http://localhost/myweb/media/head-web.png");
+	background-image: url("../media/head-web.png");
 	
 }
 
@@ -1951,7 +1951,7 @@ background-size: 100%;
     padding-left: 100px;
     padding-top: 20px;
     font-size: 20px;
-    background-image: url("http://localhost/myweb/media/hidd3-bcg.jpg");
+    background-image: url("../media/hidd3-bcg.jpg");
 	background-size: 100%;
 	color: black;
 
@@ -1961,7 +1961,7 @@ background-size: 100%;
 /* Forth Slide */
 .bg-4 .sl-slide-inner,
 .bg-4 .sl-content-slice {
-	background-image: url("http://localhost/myweb/media/greip2.jpg");
+	background-image: url("../media/greip2.jpg");
 	background-size: 100%;
 
 }
@@ -1983,7 +1983,7 @@ background-size: 100%;
 	margin: -110px 0 0 -110px;
 	
 	
-	background-image: url("http://localhost/myweb/media/brain-crowd.png");
+	background-image: url("../media/brain-crowd.png");
 }
 
 .bg-4 h2,
@@ -2013,7 +2013,7 @@ background-size: 100%;
     padding-left: 100px;
     padding-top: 20px;
     font-size: 20px;
-    background-image: url("http://localhost/myweb/media/hidd4-bcg.jpg");
+    background-image: url("../media/hidd4-bcg.jpg");
 	background-size: 100%;
 	color: white;
 
@@ -2028,7 +2028,7 @@ background-size: 100%;
 /* Fifth Slide */
 .bg-5 .sl-slide-inner,
 .bg-5 .sl-content-slice {
-	background-image: url("http://localhost/myweb/media/apple.jpg");
+	background-image: url("../media/apple.jpg");
 	background-size: 100%;
 }
 
@@ -2049,7 +2049,7 @@ background-size: 100%;
 	margin: -110px 0 0 -110px;
 	
 	
-	background-image: url("http://localhost/myweb/media/brain-experiential.png");
+	background-image: url("../media/brain-experiential.png");
 }
 
 .bg-5 h2,
@@ -2174,7 +2174,7 @@ background-size: 100%;
 	margin-bottom: 0px;
 	background-color: rgba(0, 0, 0, 1);
 
-	background-image: url("http://localhost/myweb/media/patterns/grid.png");
+	background-image: url("../media/patterns/grid.png");
 	color:white;
 	}
 
@@ -2292,7 +2292,7 @@ div.popup_content {
 
 #form-div {
 	background-color:rgba(100, 125, 125, 0.8);
-	background-image: url("http://localhost/myweb/media/patterns/grid.png");
+	background-image: url("../media/patterns/grid.png");
 	padding-left:15px;
 	padding-right:15px;
 	padding-top:35px;
@@ -2507,13 +2507,13 @@ input:focus, textarea:focus {
 }
 
 #facebook {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/facebook-gray.png");
+	background-image: url("../media/Icons/social-icons/facebook-gray.png");
 	width: 91px;
 	height: 91px;
 }
 
 #facebook:hover {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/facebook-color.png");
+	background-image: url("../media/Icons/social-icons/facebook-color.png");
 	transition-property: all;
 	transition-duration: 0.5s;
 	transition-timing-function: ease;
@@ -2523,13 +2523,13 @@ input:focus, textarea:focus {
 }
 
 #twitter {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/twitter-gray.png");
+	background-image: url("../media/Icons/social-icons/twitter-gray.png");
 	width: 91px;
 	height: 91px;
 }
 
 #twitter:hover {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/twitter-color.png");
+	background-image: url("../media/Icons/social-icons/twitter-color.png");
 	transition-property: all;
 	transition-duration: 0.5s;
 	transition-timing-function: ease;
@@ -2539,13 +2539,13 @@ input:focus, textarea:focus {
 }
 
 #linkedin {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/in-grey.png");
+	background-image: url("../media/Icons/social-icons/in-grey.png");
 	width: 91px;
 	height: 91px;
 }
 
 #linkedin:hover {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/in-color.png");
+	background-image: url("../media/Icons/social-icons/in-color.png");
 	transition-property: all;
 	transition-duration: 0.5s;
 	transition-timing-function: ease;
@@ -2555,13 +2555,13 @@ input:focus, textarea:focus {
 }
 
 #google {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/google-grey.png");
+	background-image: url("../media/Icons/social-icons/google-grey.png");
 	width: 91px;
 	height: 91px;
 }
 
 #google:hover {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/google-color.png");
+	background-image: url("../media/Icons/social-icons/google-color.png");
 	transition-property: all;
 	transition-duration: 0.5s;
 	transition-timing-function: ease;
@@ -2571,14 +2571,14 @@ input:focus, textarea:focus {
 }
 
 #skype {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/skype-grey.png");
+	background-image: url("../media/Icons/social-icons/skype-grey.png");
 	width: 91px;
 	height: 91px;
 	
 }
 
 #skype:hover {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/skype-color.png");
+	background-image: url("../media/Icons/social-icons/skype-color.png");
 	transition-property: all;
 	transition-duration: 0.5s;
 	transition-timing-function: ease;
@@ -2588,14 +2588,14 @@ input:focus, textarea:focus {
 }
 
 #press {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/press-grey.png");
+	background-image: url("../media/Icons/social-icons/press-grey.png");
 	width: 91px;
 	height: 91px;
 	
 }
 
 #press:hover {
-	background-image: url("http://localhost/myweb/media/Icons/social-icons/press-color.png");
+	background-image: url("../media/Icons/social-icons/press-color.png");
 	transition-property: all;
 	transition-duration: 0.5s;
 	transition-timing-function: ease;
