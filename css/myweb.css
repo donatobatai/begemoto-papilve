@@ -233,20 +233,12 @@ a > p:hover {
 	margin-top: 1px;
 	}
 
-#about {
-	margin: 0px;
-	padding-top: 120px;
-	font-family: 'Quicksand';
-	letter-spacing: 0px;
-	font-size: 50px;
-	font-weight: 300;
-}
 
 
 
 #about-1 {
 	float: left;
-	width:380px;
+	width:330px;
 	height: 450px;
 	margin-left: 50px;
 	background-color: white;
@@ -259,16 +251,16 @@ a > p:hover {
 #about-1 img {
 	width: 300;
 	height:350px;
-	border-width: 3px;
+	border-width: 0px;
 	border-color: black;
-	padding-top: 130px;
-	padding-left: 80px;
+	padding-top: 30px;
+	padding-left: 50px;
 }
 
 #about-2 {
 	float: left;
-	width:450px;
-	margin-left: 50px;
+	width:670px;
+	margin-left: 0px;
 	
 }
 
@@ -286,7 +278,7 @@ a > p:hover {
 	font-family: 'Quicksand';
 	font-weight: 300;
 	font-size: 23px;
-	letter-spacing: 0	px;
+	letter-spacing: 0px;
 }
 
 .about-bold {
@@ -295,9 +287,9 @@ a > p:hover {
 
 #about-3 {
 	float: left;
-	width:400px;
-	margin-left: 50px;
-	letter-spacing: 1px;
+	width:310px;
+	margin-left: 20px;
+	letter-spacing: 0px;
 	font-size: 23px;
 	font-weight: 300;
 
@@ -305,7 +297,7 @@ a > p:hover {
 
 #about-3 h5 {
 	font-size: 25px;
-	padding-top: 201px;
+	padding-top: 35px;
 	margin: 0px;
 	padding-bottom: 20px;
 	color: rgb(110,180,180);
@@ -356,7 +348,7 @@ a > p:hover {
 	letter-spacing: 0px;
 	font-weight: 300;
 	font-size: 50px;
-	padding-top: 120px;
+	padding-top: 80px;
 	margin-top: 0px;
 }
 
@@ -2187,7 +2179,7 @@ background-size: 100%;
 	letter-spacing: 3px;
 	font-weight: normal;
 	text-align: center;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Quicksand';
 	font-size: 55px;
 	margin: 0px;
 }
@@ -2465,33 +2457,12 @@ input:focus, textarea:focus {
 	}
 }
 
-/*Email form end
- */
-
-/* minimapas, kurio nenaudoju bent kolkas, kadangi levai atrodo
-.footer-element2 {
-	position: relative;
-	display: block;
-	float:right;
-	padding: 0px;
-	padding-top: 10px;
-}
-*/
 
 
-#minimap {
-	float: right;
-	width: 400px;
-	padding-top: 0px;
-	margin-right: 50px;
-	padding: 0px;
-}
-
-
-
-.emailsai p {
+#emailsai p {
 	padding-top: 50px;
 	position: fixed;
+	
 }
 
 #icons {
