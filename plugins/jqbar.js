@@ -15,7 +15,7 @@ License: http://www.egrappler.com/license.
                 animationSpeed: 3000,
                 barLength: 300,
                 orientation: 'h',
-                barWidth: 35,
+                barWidth: 25,
                 barColor: 'rgba(110, 180, 180, 0.4);',
                 label: '&nbsp;',
                 value: 100
