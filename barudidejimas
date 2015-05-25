@@ -1,0 +1,27 @@
+<script type="text/javascript">
+  function isScrolledIntoView(elem) {
+      var docViewTop = $(window).scrollTop();
+      var docViewBottom = docViewTop + $(window).height();
+      var elemTop = $(elem).offset().top;
+      var elemBottom = elemTop + $(elem).height();
+      return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  }
+
+  $(function(){
+    $(window).scroll(function(){
+      if (isScrolledIntoView($('#skills'))) {
+        $('#bar-1, #bar-2, #bar-3, #bar-4, #bar-5, #bar-6, #bar-7, #bar-8, #bar-9, #bar-10, #bar-11, #bar-12').each(function(){
+          if (!$(this).hasClass('initialized')){
+            $(this).jqbar({ label: $(this).data('label'), value: parseInt($(this).data('value')), barColor: $(this).data('color') });
+            console.log($(this).data('label'), $(this).data('value'), $(this).data('color'))
+            $(this).addClass('initialized');
+          }
+        })
+
+      }
+    })
+
+
+  })
+  //baru didejimas skillsu psl
+  </script>
