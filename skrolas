@@ -1,0 +1,37 @@
+<script type="text/javascript">
+    var first = $('#first').offset().top + $('#first').height();
+    var second = $('#second').offset().top + $('#second').height();
+    var third = $('#third').offset().top + $('#third').height();
+    var fourth = $('#fourth').offset().top + $('#fourth').height();
+    var fifth = $('#fifth').offset().top + $('#fifth').height();
+    $(window).on('scroll',function(){
+      stop = Math.round($(window).scrollTop());
+    if (stop > first) {
+        $('.header').addClass('header-past-first');
+    } else {
+        $('.header').removeClass('header-past-first');
+   }
+  if (stop > second) {
+        $('.header').addClass('header-past-second');
+    } else {
+        $('.header').removeClass('header-past-second');
+   }
+   if (stop > third) {
+        $('.header').addClass('header-past-third');
+    } else {
+        $('.header').removeClass('header-past-third');
+   }
+   if (stop > fourth) {
+        $('.header').addClass('header-past-fourth');
+    } else {
+        $('.header').removeClass('header-past-fourth');
+   }
+   if (stop > fifth) {
+        $('.header').addClass('header-past-fifth');
+    } else {
+        $('.header').removeClass('header-past-fifth');
+   }
+  
+});
+    //header changing parameters after slides pass certain content
+    </script>
