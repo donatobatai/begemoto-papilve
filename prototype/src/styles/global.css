@@ -1689,3 +1689,7 @@ html {
 .connections-still.region-open h2{opacity:0!important}
 .scene-still:has(details[open]) .employer{opacity:.12!important}
 @media(max-width:600px) and (prefers-reduced-motion:reduce){.region-disclosure{top:48%}}
+.language-switch{display:inline-flex;gap:.35rem;margin-left:.35rem;font-size:.68rem;letter-spacing:.12em;align-items:center;white-space:nowrap}.language-switch a{opacity:.48;text-decoration:none}.language-switch>span{opacity:.25}.language-switch a:hover,.language-switch a:focus-visible{opacity:1}
+@media(max-width:760px){.language-switch{position:static;margin-left:.1rem;gap:.3rem;font-size:.62rem}}
+@media(max-width:600px){.site-nav .language-switch a{display:inline-block!important}.site-nav .language-switch>span{display:inline!important}.site-nav{gap:.75rem}}
+html[lang="en"] .language-switch a[href="/"],html[lang="lt"] .language-switch a[href="/lt/"],html[lang="fr"] .language-switch a[href="/fr/"]{opacity:1}
