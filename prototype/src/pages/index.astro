@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import Hero from '../components/Hero.astro';
+import Journey from '../components/Journey.astro';
+---
+<BaseLayout title="Donatas Starkus — Papilvė" description="People, systems and the connections underneath. The work and experiments of Donatas Starkus.">
+  <SiteHeader />
+  <main id="main"><Hero /><Journey /></main>
+  <script>import '../scripts/site';</script>
+</BaseLayout>

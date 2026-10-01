@@ -1,0 +1,111 @@
+---
+import { capabilities } from '../data/content';
+---
+
+<section class="capabilities work-scenes section" id="capabilities" aria-labelledby="capabilities-title" data-section="capabilities" data-capability-section>
+  <div class="work-scenes__sticky">
+    <header class="work-scenes__intro">
+      <p class="eyebrow eyebrow--light">Selected fields of practice</p>
+      <h2 id="capabilities-title">Four worlds.<br />One practice.</h2>
+      <p>Scroll through the work, or choose a chapter.</p>
+    </header>
+
+    <div class="work-scenes__stage" data-work-stage data-active="lead" data-direction="forward">
+      <div class="work-scenes__worlds" aria-live="polite">
+        {capabilities.map((capability, index) => (
+          <article class:list={['work-world', `work-world--${index + 1}`, { 'is-active': index === 0 }]} style={`--scene: url('${capability.scene}'); --accent: ${capability.accent};`} data-work-world={capability.id} aria-hidden={index === 0 ? 'false' : 'true'}>
+            <div class="work-world__image" aria-hidden="true"></div>
+            <div class="work-world__grain" aria-hidden="true"></div>
+            <p class="work-world__field">{capability.field}</p>
+            <p class="work-world__number" aria-hidden="true">{capability.number}</p>
+            <div class="work-world__copy">
+              <p class="work-world__chapter">Chapter {capability.number}</p>
+              <h3>{capability.title}</h3>
+              <p>{capability.description}</p>
+              <button class="work-world__evidence" type="button" aria-haspopup="dialog" aria-controls="evidence-dialog" data-evidence-open={capability.id}>
+                <span aria-hidden="true">+</span><span>Enter the deeper layer</span>
+              </button>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <div class="brain-aperture" data-brain-stage aria-hidden="true">
+        <span class="brain-aperture__ring brain-aperture__ring--outer"></span>
+        <span class="brain-aperture__ring brain-aperture__ring--inner"></span>
+        <span class="brain-aperture__axis"></span>
+        <div class="brain-aperture__rotor" data-brain-rotor>
+          {capabilities.map((capability, index) => (
+            <img class:list={['brain-aperture__image', { 'is-active': index === 0 }]} src={capability.image} alt="" width="600" height="600" data-brain-layer={capability.id} />
+          ))}
+          <span class="brain-aperture__slice brain-aperture__slice--one"></span>
+          <span class="brain-aperture__slice brain-aperture__slice--two"></span>
+        </div>
+        <p class="brain-aperture__caption">Papilvė / mind in motion</p>
+      </div>
+
+      <nav class="chapter-index" aria-label="Areas of practice">
+        {capabilities.map((capability, index) => (
+          <button class:list={['chapter-index__item', { 'is-active': index === 0 }]} type="button" aria-pressed={index === 0 ? 'true' : 'false'} data-capability={capability.id}>
+            <span>{capability.number}</span><span>{capability.short}</span>
+          </button>
+        ))}
+      </nav>
+
+      <div class="work-scenes__counter" aria-hidden="true"><span data-readout-number>01</span><i></i><span>04</span></div>
+      <p class="work-scenes__scroll" aria-hidden="true">Scroll / transform</p>
+    </div>
+  </div>
+
+  <div class="work-scenes__mobile">
+    <header class="work-scenes__mobile-intro">
+      <p class="eyebrow eyebrow--light">Selected fields of practice</p>
+      <h2>Four worlds.<br />One practice.</h2>
+    </header>
+    {capabilities.map((capability) => (
+      <article class="mobile-chapter" style={`--scene: url('${capability.scene}'); --accent: ${capability.accent};`} data-mobile-chapter={capability.id}>
+        <div class="mobile-chapter__visual" aria-hidden="true">
+          <span class="mobile-chapter__number">{capability.number}</span>
+          <img src={capability.image} alt="" width="600" height="600" />
+        </div>
+        <p class="mobile-chapter__field">{capability.field}</p>
+        <h3>{capability.title}</h3>
+        <p>{capability.description}</p>
+        <button class="work-world__evidence" type="button" aria-haspopup="dialog" aria-controls="evidence-dialog" data-evidence-open={capability.id}>
+          <span aria-hidden="true">+</span><span>Enter the deeper layer</span>
+        </button>
+      </article>
+    ))}
+  </div>
+</section>
+
+<dialog class="evidence-world" id="evidence-dialog" data-evidence-dialog aria-labelledby="evidence-dialog-title-lead">
+  <div class="evidence-world__shell">
+    <header class="evidence-world__header">
+      <p>Papilvė / inside the subject</p>
+      <form method="dialog">
+        <button class="evidence-world__close" type="submit" value="close" data-evidence-close><span>Return to the field</span><span aria-hidden="true">×</span></button>
+      </form>
+    </header>
+
+    {capabilities.map((capability, index) => (
+      <article class="evidence-world__content" style={`--detail: url('${capability.detail}'); --accent: ${capability.accent};`} data-evidence-content={capability.id} hidden={index !== 0}>
+        <div class="evidence-world__visual" aria-hidden="true">
+          <span class="evidence-world__visual-image"></span>
+          <img src={capability.image} alt="" width="600" height="600" />
+          <span class="evidence-world__visual-number">{capability.number}</span>
+        </div>
+        <div class="evidence-world__story">
+          <p class="eyebrow eyebrow--light">Capability evidence / provisional</p>
+          <h2 id={`evidence-dialog-title-${capability.id}`}>{capability.title}</h2>
+          <p class="evidence-world__lead">{capability.description}</p>
+          <p>{capability.evidence}</p>
+          <div class="evidence-world__slots">
+            <p>Designed to hold</p>
+            <ul><li>Concise narrative and work examples</li><li>Project image, dashboard or artefact</li><li>CIOS, analytical work or standalone demo</li></ul>
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+</dialog>

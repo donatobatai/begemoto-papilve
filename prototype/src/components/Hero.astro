@@ -1,0 +1,51 @@
+---
+import opening from "../assets/hero-opening.png";
+---
+<section class="hero" id="top" aria-labelledby="hero-title" data-hero>
+  <div class="hero__media" data-hero-media>
+    <img class="hero__opening" src={opening.src} alt="" fetchpriority="high"/>
+    <video
+      class="hero__video"
+      muted
+      autoplay
+      playsinline
+      preload="auto"
+      poster={opening.src}
+      data-hero-video
+    >
+      <source src="/vbackground.webm?v=7" type="video/webm" />
+      <source src="/vbackground.mp4?v=7" type="video/mp4" />
+    </video>
+  </div>
+  <div class="hero__shade" aria-hidden="true"></div>
+
+
+  <div class="hero__index" aria-hidden="true">
+    <span>SURFACE REGISTER // 2026<br/><small>BEGEMOTO PAPILVĖ (2014–2026)</small></span>
+    <span>Vilnius — LT · 54.6872° N / 25.2797° E</span>
+  </div>
+
+  <div class="hero__title-lockup" id="hero-title">
+    <p class="eyebrow hero__eyebrow" data-hero-line>The surface is only the beginning</p>
+    <h1>
+      <span class="hero__name hero__name--first" data-hero-line>Donatas</span>
+      <span class="hero__name hero__name--last" data-hero-line>Starkus</span>
+    </h1>
+    <p class="hero__position" data-hero-line>
+      Product &amp; AI systems.<br/>Commercial intelligence.<br/><em>Making the pieces work.</em>
+    </p>
+  </div>
+
+  <div class="hero__controls">
+    <a class="scroll-cue" href="#underneath">
+      <span>Go underneath</span>
+      <span class="scroll-cue__line" aria-hidden="true"></span>
+    </a>
+    <button class="media-toggle" type="button" aria-pressed="false" data-video-toggle>
+      <span class="media-toggle__icon" aria-hidden="true"></span>
+      <span data-video-label>Pause film</span>
+    </button>
+  </div>
+
+  <div class="hero__aperture" aria-hidden="true" data-aperture></div>
+</section>

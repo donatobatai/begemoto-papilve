@@ -1,0 +1,7 @@
+.git
+.gitignore
+snapshots
+gemini-concept
+prototype/node_modules
+prototype/dist
+docs
